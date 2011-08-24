@@ -44,69 +44,6 @@ DROP PROCEDURE IF EXISTS `sp_UpdateByList`;
 DROP PROCEDURE IF EXISTS `sp_UpdateDifficultyEntries`;
 DROP PROCEDURE IF EXISTS `sp_UpdateByMap`;
 
--- == =================== ==
--- ==   DROP LIST 29      ==
--- == =================== ==
-
-DROP PROCEDURE IF EXISTS `sp_error_trigger`;
-DROP PROCEDURE IF EXISTS `sp_error_entry`;
-DROP PROCEDURE IF EXISTS `sp_error_guid`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_lootable_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_lootable`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_civilian_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_civilian`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_attackable`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_attackable_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_targetable`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_targetable_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_aggro`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_aggro_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_faction`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_faction_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_selectable`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_selectable_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_deadquest`;
-DROP PROCEDURE IF EXISTS `sp_set_spell_target`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_trigger`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_trigger_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_lootid`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_lootid_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_lootid_bytable`;
-DROP PROCEDURE IF EXISTS `sp_set_npc_path`;
-DROP PROCEDURE IF EXISTS `sp_set_item_money`;
-DROP PROCEDURE IF EXISTS `sp_set_item_money_bylist`;
-DROP PROCEDURE IF EXISTS `sp_set_entry_list`;
-DROP PROCEDURE IF EXISTS `sp_set_quest_previous`;
-DROP PROCEDURE IF EXISTS `sp_set_quest_next`;
-DROP PROCEDURE IF EXISTS `sp_set_quest_level`;
-DROP PROCEDURE IF EXISTS `sp_get_ref_id`;
-DROP PROCEDURE IF EXISTS `sp_get_npc_diffentry`;
-DROP PROCEDURE IF EXISTS `sp_get_go_lootid`;
-DROP PROCEDURE IF EXISTS `sp_eai_inverse_phase_mask`;
-DROP PROCEDURE IF EXISTS `sp_eai_table_phase_mask`;
-DROP PROCEDURE IF EXISTS `sp_eai_select_id`;
-DROP PROCEDURE IF EXISTS `sp_eai_quest_credit_on_spellhit`;
-DROP PROCEDURE IF EXISTS `sp_eai_spawn_spellhit`;
-DROP PROCEDURE IF EXISTS `sp_eai_cast_onspawn`;
-DROP PROCEDURE IF EXISTS `sp_eai_kill_ondeath`;
-DROP PROCEDURE IF EXISTS `sp_dev_re_guid`;
-DROP PROCEDURE IF EXISTS `sp_dev_reguid_alter_tables`;
-DROP PROCEDURE IF EXISTS `sp_dev_cleanup_world`;
-DROP PROCEDURE IF EXISTS `sp_dev_cleanup_loot`;
-DROP PROCEDURE IF EXISTS `sp_dev_cleanup_reference_loot`;
-DROP PROCEDURE IF EXISTS `sp_delete_spell_area`;
-DROP PROCEDURE IF EXISTS `sp_delete_spell_position`;
-DROP PROCEDURE IF EXISTS `sp_delete_spell_position_bylist`;
-DROP PROCEDURE IF EXISTS `sp_delete_spell_target`;
-DROP PROCEDURE IF EXISTS `sp_delete_questgiver`;
-DROP PROCEDURE IF EXISTS `sp_delete_questtaker`;
-DROP PROCEDURE IF EXISTS `sp_delete_spawn`;
-DROP PROCEDURE IF EXISTS `sp_delete_script`;
-DROP PROCEDURE IF EXISTS `sp_delete_script_bylist`;
-DROP PROCEDURE IF EXISTS `sp_delete_npc_trainer`;
-DROP PROCEDURE IF EXISTS `sp_delete_npc_vendor`;
-DROP PROCEDURE IF EXISTS `sp_delete_loot`;
-
 /* Procedure structure for procedure `sp_CharExtraLevelHPMP` */
 
 DELIMITER $$
