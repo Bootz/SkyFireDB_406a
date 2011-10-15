@@ -2,4 +2,6 @@
 
 Project SkyFire (http://www.projectskyfire.org/)
 
-in development pack, add individual fixes ...they will be added to the main update pack when finished.
+This db is Developmental only and was made for:
+https://github.com/ProjectSkyfire/SkyFireEMU_rebase
+
